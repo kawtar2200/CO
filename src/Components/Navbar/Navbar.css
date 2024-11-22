@@ -1,0 +1,51 @@
+.icons{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    font-size: 28px;
+}
+    
+
+.nav-btn{
+    font-size: 19px;
+font-weight: bold;
+    width: 90px;
+    height:50px;
+    background-color: transparent;
+    border: 1px solid rgb(187, 162, 129) ;
+    color: rgb(79, 61, 39);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    cursor:pointer;
+    
+}
+.nav-btn:hover{
+    background-color: rgb(187, 162, 129);
+
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 25px;
+    color:rgb(79, 61, 39);
+}
+.nav-link {
+  color: rgb(169, 137, 98);
+  font-size: 19px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  
+}
+.nav-link:hover {
+    border-bottom: 4px solid rgb(79, 61, 39);
+    
+    padding-bottom: 5px; /* Adjust padding to make the border appear */
+  }
+.nav-link.active {
+    border-bottom: 2px solid #f56c42;
+    font-weight: bold;
+    /* Adding a smooth transition to the active state */
+    transition: all 0.3s ease-in-out;
+  }

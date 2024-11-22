@@ -1,0 +1,33 @@
+
+.card-detail{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:70px;
+    margin-top: 126px;
+    margin-bottom: 100px;
+    height: 70%;
+}
+img{
+    width: 430px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.info-detail{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.btn-detail{
+    
+    margin-top: 70px;
+    width: 100%;
+    background-color:  rgb(79, 61, 39);
+    color:white;
+}

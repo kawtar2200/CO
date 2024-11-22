@@ -1,0 +1,538 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "title": "Men's Casual Shirt",
+      "description": "A stylish and comfortable casual shirt for men, perfect for any occasion.",
+      "price": 29.99,
+      "category": "men",
+      "image": "/assests/m1.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 50
+      }
+    },
+    {
+      "id": "3",
+      "title": "Men's Slim Fit Jeans",
+      "description": "These slim fit jeans offer a modern look with comfort and flexibility.",
+      "category": "men",
+      "price": 15.99,
+      "image": "/assests/m2.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 120
+      }
+    },
+    {
+      "id": "5",
+      "title": "Women's Floral Dress",
+      "description": "A beautiful floral dress for women, ideal for spring and summer outings.",
+      "price": 15.99,
+      "category": "women",
+      "image": "/assests/w3.jpg",
+      "rating": {
+        "rate": 4.3,
+        "count": 90
+      }
+    },
+    {
+      "id": "6",
+      "title": "Men's Hoodie",
+      "description": "Stay warm and stylish with this men's hoodie, perfect for casual wear.",
+      "price": 25.99,
+      "category": "men",
+      "image": "/assests/m3.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 60
+      }
+    },
+    {
+      "id": "7",
+      "title": "Women's Leather Jacket",
+      "description": "A trendy leather jacket for women, designed to add an edge to any outfit.",
+      "price": 25.99,
+      "category": "women",
+      "image": "/assests/w4.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 60
+      }
+    },
+    {
+      "id": "8",
+      "title": "Men's Sports Watch",
+      "description": "A durable sports watch for men, featuring a sleek design and multiple functionalities.",
+      "price": 25.99,
+      "category": "men",
+      "image": "/assests/m4.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 60
+      }
+    },
+    {
+      "id": "9",
+      "title": "Women's Floral Dress",
+      "description": "Chic and stylish sunglasses for women, perfect for sunny days.",
+      "price": 25.99,
+      "category": "women",
+      "image": "/assests/w5.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 60
+      }
+    },
+    {
+      "id": "11",
+      "title": "Women's Floral Dress",
+      "description": "Elegant high heels for women, designed to complement formal and casual outfits.",
+      "price": 25.99,
+      "category": "women",
+      "image": "/assests/w6.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 60
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "af67",
+      "items": [
+        {
+          "id": "8",
+          "title": "Men's Sports Watch",
+          "description": "A durable sports watch for men, featuring a sleek design and multiple functionalities.",
+          "price": 25.99,
+          "category": "men",
+          "image": "./assests/m4.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 2
+        },
+        {
+          "id": "9",
+          "title": "Women's Sunglasses",
+          "description": "Chic and stylish sunglasses for women, perfect for sunny days.",
+          "price": 25.99,
+          "category": "women",
+          "image": "/assests/w5.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "title": "Women's Leather Jacket",
+          "description": "A trendy leather jacket for women, designed to add an edge to any outfit.",
+          "price": 25.99,
+          "category": "women",
+          "image": "/assests/w4.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "title": "Men's Hoodie",
+          "description": "Stay warm and stylish with this men's hoodie, perfect for casual wear.",
+          "price": 25.99,
+          "category": "men",
+          "image": "/assests/m3.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 129.95,
+      "date": "2024-11-16T20:36:23.598Z",
+      "user": {
+        "name": "kawtar elmerounekawtar",
+        "address": "HASSANIA",
+        "phone": "0629282219"
+      }
+    },
+    {
+      "id": "26d1",
+      "items": [
+        {
+          "id": "9",
+          "title": "Women's Sunglasses",
+          "description": "Chic and stylish sunglasses for women, perfect for sunny days.",
+          "price": 25.99,
+          "category": "women",
+          "image": "/assests/w5.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "title": "Men's Sports Watch",
+          "description": "A durable sports watch for men, featuring a sleek design and multiple functionalities.",
+          "price": 25.99,
+          "category": "men",
+          "image": "./assests/m4.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "title": "Women's Leather Jacket",
+          "description": "A trendy leather jacket for women, designed to add an edge to any outfit.",
+          "price": 25.99,
+          "category": "women",
+          "image": "/assests/w4.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 2
+        },
+        {
+          "id": "6",
+          "title": "Men's Hoodie",
+          "description": "Stay warm and stylish with this men's hoodie, perfect for casual wear.",
+          "price": 25.99,
+          "category": "men",
+          "image": "/assests/m3.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 129.95,
+      "date": "2024-11-15T20:39:13.537Z",
+      "user": {
+        "name": "kawtar elmerounekawtar",
+        "address": "HASSANIA",
+        "phone": "0629282219"
+      }
+    },
+    {
+      "id": "f98d",
+      "items": [
+        {
+          "id": "2",
+          "title": "Men's Casual Shirt",
+          "description": "A stylish and comfortable casual shirt for men, perfect for any occasion.",
+          "price": 29.99,
+          "category": "men",
+          "image": "/assests/m1.jpg",
+          "rating": {
+            "rate": 4,
+            "count": 50
+          },
+          "quantity": 3
+        },
+        {
+          "id": "5",
+          "title": "Women's Floral Dress",
+          "description": "A beautiful floral dress for women, ideal for spring and summer outings.",
+          "price": 15.99,
+          "category": "women",
+          "image": "/assests/w3.jpg",
+          "rating": {
+            "rate": 4.3,
+            "count": 90
+          },
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 144.94,
+      "date": "2024-11-14T12:25:50.000Z",
+      "user": {
+        "name": "John Doe",
+        "address": "123 Main St",
+        "phone": "555-1234"
+      }
+    },
+    {
+      "id": "3b5d",
+      "items": [
+        {
+          "id": "3",
+          "title": "Men's Slim Fit Jeans",
+          "description": "These slim fit jeans offer a modern look with comfort and flexibility.",
+          "price": 15.99,
+          "category": "men",
+          "image": "/assests/m2.jpg",
+          "rating": {
+            "rate": 3.8,
+            "count": 120
+          },
+          "quantity": 2
+        },
+        {
+          "id": "7",
+          "title": "Women's Leather Jacket",
+          "description": "A trendy leather jacket for women, designed to add an edge to any outfit.",
+          "price": 25.99,
+          "category": "women",
+          "image": "/assests/w4.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 67.97,
+      "date": "2024-11-13T08:15:30.000Z",
+      "user": {
+        "name": "Jane Smith",
+        "address": "456 Elm St",
+        "phone": "555-5678"
+      }
+    },
+    {
+      "id": "7d14",
+      "items": [
+        {
+          "id": "11",
+          "title": "Women's Floral Dress",
+          "description": "Elegant high heels for women, designed to complement formal and casual outfits.",
+          "price": 25.99,
+          "category": "women",
+          "image": "/assests/w6.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 1
+        },
+        {
+          "id": "9",
+          "title": "Women's Floral Dress",
+          "description": "Chic and stylish sunglasses for women, perfect for sunny days.",
+          "price": 25.99,
+          "category": "women",
+          "image": "/assests/w5.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "title": "Men's Sports Watch",
+          "description": "A durable sports watch for men, featuring a sleek design and multiple functionalities.",
+          "price": 25.99,
+          "category": "men",
+          "image": "/assests/m4.jpg",
+          "rating": {
+            "rate": 3.9,
+            "count": 60
+          },
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 77.97,
+      "date": "2024-11-17T23:13:55.020Z",
+      "user": {
+        "name": "kawtar elmerounekawtar",
+        "address": "HASSANIA",
+        "phone": "0629282219"
+      }
+    },
+    {
+      "id": "c204",
+      "items": [
+        {
+          "id": "5",
+          "title": "Women's Floral Dress",
+          "description": "A beautiful floral dress for women, ideal for spring and summer outings.",
+          "price": 15.99,
+          "category": "women",
+          "image": "/assests/w3.jpg",
+          "rating": {
+            "rate": 4.3,
+            "count": 90
+          },
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 15.99,
+      "date": "2024-11-18T18:23:07.177Z",
+      "user": {
+        "name": "kawtar elmerounekawtar",
+        "address": "HASSANIA",
+        "phone": "0629282219"
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "kawtar elmerounekawtar",
+      "address": "HASSANIA",
+      "phone": "0629282219",
+      "email": "kawtar@example.com"
+    },
+    {
+      "id": "2",
+      "name": "John Doe",
+      "address": "123 Main St",
+      "phone": "555-1234",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Jane Smith",
+      "address": "456 Elm St",
+      "phone": "555-5678",
+      "email": "janesmith@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Michael Johnson",
+      "address": "789 Oak St",
+      "phone": "555-8765",
+      "email": "michaeljohnson@example.com"
+    },
+    {
+      "id": "5",
+      "name": "Emily Davis",
+      "address": "101 Maple Ave",
+      "phone": "555-4321",
+      "email": "emilydavis@example.com"
+    },
+    {
+      "id": "6",
+      "name": "David Miller",
+      "address": "202 Pine Rd",
+      "phone": "555-6789",
+      "email": "davidmiller@example.com"
+    },
+    {
+      "id": "7",
+      "name": "Sarah Wilson",
+      "address": "303 Birch Ln",
+      "phone": "555-9876",
+      "email": "sarahwilson@example.com"
+    },
+    {
+      "id": "8",
+      "name": "William Brown",
+      "address": "404 Cedar Dr",
+      "phone": "555-2468",
+      "email": "williambrown@example.com"
+    },
+    {
+      "id": "9",
+      "name": "Olivia Martinez",
+      "address": "505 Cherry St",
+      "phone": "555-1357",
+      "email": "oliviamartinez@example.com"
+    },
+    {
+      "id": "10",
+      "name": "James Anderson",
+      "address": "606 Elmwood Ave",
+      "phone": "555-8642",
+      "email": "jamesanderson@example.com"
+    },
+    {
+      "id": "11",
+      "name": "Ava Thompson",
+      "address": "707 Walnut St",
+      "phone": "555-2589",
+      "email": "avathompson@example.com"
+    },
+    {
+      "id": "12",
+      "name": "Daniel Harris",
+      "address": "808 Redwood Rd",
+      "phone": "555-7432",
+      "email": "danielharris@example.com"
+    },
+    {
+      "id": "13",
+      "name": "Isabella Garcia",
+      "address": "909 Spruce St",
+      "phone": "555-3524",
+      "email": "isabellagarcia@example.com"
+    },
+    {
+      "id": "14",
+      "name": "Alexander Lee",
+      "address": "1001 Fir Ln",
+      "phone": "555-9753",
+      "email": "alexanderlee@example.com"
+    },
+    {
+      "id": "15",
+      "name": "Mia Clark",
+      "address": "1112 Pine Ln",
+      "phone": "555-4597",
+      "email": "miaclark@example.com"
+    },
+    {
+      "id": "16",
+      "name": "Ethan Walker",
+      "address": "1213 Cedar Ave",
+      "phone": "555-2489",
+      "email": "ethanwalker@example.com"
+    },
+    {
+      "id": "17",
+      "name": "Charlotte Lewis",
+      "address": "1314 Oakwood Rd",
+      "phone": "555-1598",
+      "email": "charlottelewis@example.com"
+    },
+    {
+      "id": "18",
+      "name": "Benjamin Scott",
+      "address": "1415 Maplewood Dr",
+      "phone": "555-7531",
+      "email": "benjaminscott@example.com"
+    },
+    {
+      "id": "19",
+      "name": "Amelia Young",
+      "address": "1516 Willow St",
+      "phone": "555-3579",
+      "email": "ameliayoung@example.com"
+    },
+    {
+      "id": "20",
+      "name": "Liam King",
+      "address": "1617 Birchwood Ave",
+      "phone": "555-2460",
+      "email": "liamking@example.com"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "fullName": "Admin One",
+      "email": "admin1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "fullName": "Admin Two",
+      "email": "admin2@example.com",
+      "password": "password456"
+    }
+  ]
+}

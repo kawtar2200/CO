@@ -1,0 +1,85 @@
+.LoginSignup{
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+    
+}
+.LoginSignup-container{
+    place-self: center;
+    color: black;
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 14px;
+    animation:fadeIn 0.5;
+    -webkit-animation:fadeIn 0.5s;
+}
+.LoginSignup-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.cross{
+    cursor: pointer;
+}
+.LoginSignup-inputs{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+}
+.LoginSignup-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.LoginSignup-btn
+{
+    border: none;
+    padding: 10px 20px;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+    color: white;
+    background-color:rgb(79, 61, 39);
+    width: 300px;
+    margin: auto;
+    font-size: 19px;
+}
+.button-check{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.button-check input{
+margin-top: -16px;
+}
+.p{
+    margin-left: 20px;
+}
+span{
+    color:  rgb(79, 61, 39);
+    cursor: pointer;
+}
